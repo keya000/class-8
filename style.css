@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+        
+}
+ul{
+    list-style: none;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Montserrat", sans-serif;
+}
+/* Manu area Part style start */
+.main_manu{
+padding: 20px 0;
+}
+.main_manu:hover{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px gray;
+    transition: 0.4s;
+}
+.manu_alignment{
+    width: 85%;
+    margin:0 auto ;
+}
+.manu_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu_section{
+    display: flex;
+    gap: 15px;
+}
+.social_icon{
+    display: flex;
+    gap: 5px;
+}
+.manu_section li a{
+    color: #3c4858;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s;
+}
+.manu_section li a:hover{
+    color: #dd2020;
+}
+.social_icon li a{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #3c4858;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 14px;
+    color: #000;
+}
+.social_icon li a:hover{
+    background-color: #dd2020;
+    color: #ffffff;
+    border-color: #dd2020;
+}
+/* Manu area Part style Done */
+
+/* -------------------------------------------------- */
+
+/* Hero Area Start */
+
+.hero_part{
+    height: 400px;
+    
+}
+.hero_alignment{
+    width: 85%;
+    padding: 300px 0;
+    background-image: url(images/01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.hero_container h5{
+    color: #161c2d;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero_container h1{
+    font-size: 42px;
+    color: #dd2020;
+    padding: 10px 0;
+}
+.hero_container p{
+    color: #8492a6;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.hero_button_part button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.btn1{
+    background-color: #d13939;
+    color: #ffffff;
+    border: none;
+}
+.btn1:hover{
+    background-color: #dd2020;
+    transition: 0.3s;
+}
+.btn2{
+    border-color:#dd2020;
+    color: #8492a6;
+}
+.btn2:hover{
+    background-color: #dd2020;
+    color:#ffffff;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s;
+}
+/* Hero Area Done */
+/* ----------------------------------------------- */
+/* About section Start */
+.view_portfolio{
+    padding-top:  300px;
+    margin-top: 300px;
+    padding-left: 20%;
+    
+    
+   
+}
+.about_img_section img{
+    height: 550px;
+    width: auto;
+}
+.about_img_section{
+    box-sizing: border-box;
+    border: 15px solid #e5e5f0;
+    border-radius: 5px;
+    float: left;
+    width: 28%;
+
+}
+.about_section_written{
+    box-sizing: border-box;
+    float: left;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.about_section_written h2{
+    color: #d13939;
+    font-size: 24px;
+    padding: 10px;
+}
+.about_section_written h5{
+    padding: 10px;
+    color: #161c2d;
+    font-size: 15px;
+}
+.about_section_written span{
+    color: #d13939;
+}
+.about_section_written p{
+    padding: 10px;
+    color: #8492a6;
+    font-family: "Montserrat", sans-serif;
+}
+.about_section_written img{
+    height: 25px;
+    width: 80px;
+    padding: 10px;
+}
+.about_section_written button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #d13939;
+    color: #ffffff;
+    border: none;
+    margin-left: 10px;
+}
+.about_section_written button:hover{
+    background-color: #dd2020;
+    transition: 0.3s;
+}
+
+/* About section Done */
